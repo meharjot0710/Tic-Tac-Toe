@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.App{
+  background-color: black;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.contain{
+  height: 70vh;
+  width: 50vw;
+  border: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.objects{
+  height: 33%;
+  border: 2px solid green;
+  flex-basis: 32.9%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.objectfit{
+  height: 80%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hide{
+  display: none;
+}
+.panel{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+}
+.turnnow{
+  height: 20px;
+  width: 20px;
+}
+.headings{
+  width: 100%;
+  height: 20%;
+}
+.announce{
+  text-align: right;
+  color: white;
+  margin-right: 5%;
+}
+.winner{
+  text-align: center;
+  color: white;
+}
+.restart{
+  height: 30px;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  background-color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.rebut{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
 }
